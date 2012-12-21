@@ -26,6 +26,7 @@
                     <StackPanel>
                         <TextBlock Text="{Binding LocationName}" FontSize="18" FontWeight="Bold" />
                         <TextBlock Text="{Binding Address}" FontSize ="14" FontWeight="Light" />
+                        <HyperlinkButton Content="{Binding Website}" NavigateUri="{Binding Website}" Padding="0" Margin="-5,0,0,0" HorizontalContentAlignment="Left" HorizontalAlignment="Left" />
                     </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
